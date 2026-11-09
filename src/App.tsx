@@ -6,7 +6,7 @@ import WatchList from "./pages/WatchList";
 import Favorites from "./pages/Favorites";
 import PageNotFound from "./pages/PageNotFound";
 import Layout from "./components/Layoat";
-
+import "./index.css";
 function App() {
   return (
     <BrowserRouter>

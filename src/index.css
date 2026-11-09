@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
